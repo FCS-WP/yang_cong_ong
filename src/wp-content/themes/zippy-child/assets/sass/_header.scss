@@ -1,0 +1,26 @@
+#masthead {
+  padding: 15px 30px;
+  border: none !important;
+  .flex-row {
+    gap: 20px;
+  }
+  .nav-left {
+    justify-content: center;
+    gap: 20px;
+    li {
+      a {
+        font-size: 16px;
+        color: var(--e-global-color-primary);
+        text-transform: capitalize;
+        &:hover {
+          color: #50698f;
+        }
+      }
+    }
+  }
+  .icon-search,
+  .icon-shopping-cart {
+    color: var(--e-global-color-primary);
+    font-size: 25px;
+  }
+}

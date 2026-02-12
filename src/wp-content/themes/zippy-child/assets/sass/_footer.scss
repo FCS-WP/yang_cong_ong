@@ -1,0 +1,40 @@
+.absolute-footer {
+  display: none;
+}
+.footer-block {
+  font-family: var(--e-global-font-desc);
+  font-weight: 400;
+  color: var(--e-global-color-primary);
+  h3 {
+    font-size: 16px;
+  }
+  .ft-block-1 {
+    .col-inner {
+      p {
+        width: 90%;
+        font-size: 14px;
+      }
+    }
+  }
+  .ft-block-2 {
+    .ux-menu {
+      .ux-menu-link__link {
+        border: none !important;
+        font-size: 14px;
+      }
+    }
+  }
+  .ft-block-3 {
+    p {
+      font-size: 14px;
+    }
+  }
+  .ft-block-4 {
+    .ft-socials-block {
+      .col-inner {
+        display: flex;
+        gap: 12px;
+      }
+    }
+  }
+}

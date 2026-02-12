@@ -1,0 +1,15 @@
+.home-block-1 {
+  .banner {
+    h3,
+    p {
+      text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    }
+    .banner-bg {
+      border-radius: 20px;
+    }
+    .button {
+      background-color: var(--e-global-color-button);
+      border-radius: 8px;
+    }
+  }
+}
