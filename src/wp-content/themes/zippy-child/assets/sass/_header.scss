@@ -1,5 +1,9 @@
 #masthead {
-  padding: 15px 30px;
+  padding: 15px 10px;
+  @include desktop {
+    padding: 15px 30px;
+  }
+
   border: none !important;
   .flex-row {
     gap: 20px;
@@ -23,4 +27,31 @@
     color: var(--e-global-color-primary);
     font-size: 25px;
   }
+}
+
+// Mobile Version
+@media screen and (max-width: 768px) {
+  #masthead {
+    min-height: 100px;
+    .header-inner {
+      padding: 0px;
+    }
+    .nav-left{
+      display: flex;
+      justify-content: flex-start;
+    }
+    .flex-row{
+      gap: 0px;
+    }
+  }
+  .mfp-content{
+    #main-menu{
+      .searchform{
+        .ux-search-submit{
+          background: var(--e-global-color-primary);
+        }
+      }
+    }
+  }
+
 }

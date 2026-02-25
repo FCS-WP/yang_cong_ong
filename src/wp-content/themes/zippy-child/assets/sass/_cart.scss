@@ -1,0 +1,10 @@
+.cart-block {
+  .wc-proceed-to-checkout {
+    .checkout-button {
+      background-color: var(--e-global-color-primary);
+      &:hover {
+        background-color: var(--e-global-color-dark-primary);
+      }
+    }
+  }
+}
