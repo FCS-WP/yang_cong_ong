@@ -29,11 +29,9 @@ function custom_flatsome_quantity()
     echo '</form>';
 }
 
-// Create shortcode breadcrumb for page
 
 add_shortcode('wc_page_breadcrumb', function ($atts) {
 
-    // Woo context -> dùng Woo breadcrumb
     if (function_exists('woocommerce_breadcrumb') && function_exists('is_woocommerce')) {
         if (is_woocommerce() || is_cart() || is_checkout() || is_account_page()) {
             ob_start();

@@ -1,0 +1,12 @@
+.shop-container {
+  .product-container {
+    .product-main {
+      .single_add_to_cart_button {
+        background-color: var(--e-global-color-dark-primary);
+        &:hover{
+            background-color: #2f5686;
+        }
+      }
+    }
+  }
+}

@@ -26,7 +26,6 @@
     padding: 10px;
     border-radius: 20px;
     background: var(--e-global-color-dark-primary);
-    margin: 0px 10px;
     img {
       border-radius: 20px;
     }
@@ -38,15 +37,22 @@
       color: var(--e-global-color-white);
     }
     .cart {
-    
+      margin: 0 !important;
       button[name="add-to-cart"] {
+        margin-top: 1.5em !important;
+        @include tablet {
+          margin-top: 2em !important;
+        }
+        @include desktop {
+          margin-top: 2em !important;
+        }
         background: var(--e-global-color-primary) !important;
         border-radius: 10px !important;
       }
       .ux-quantity {
         display: flex;
         gap: 10px;
-          width: 100%; 
+        width: 100%;
         .plus {
           order: 1;
           border-radius: 5px !important;
@@ -73,4 +79,16 @@
   padding: 5px 60px !important;
   border-radius: 10px !important;
   font-size: 16px !important;
+}
+
+.hp-banner {
+}
+
+// Mobile version
+@media screen and (max-width: 767px) {
+  .hp-banner {
+    h3 {
+      line-height: 1.5em !important ;
+    }
+  }
 }
