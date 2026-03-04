@@ -1,0 +1,8 @@
+.checkout-block{
+    #place_order{
+        background-color: var(--e-global-color-dark-primary);
+        &:hover{
+            background-color: var(--e-global-color-primary);
+        }
+    }
+}

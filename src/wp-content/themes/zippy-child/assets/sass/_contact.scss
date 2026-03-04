@@ -1,0 +1,22 @@
+.cts-form-block {
+  margin: 0px 10px 50px 10px !important;
+
+  @include tablet {
+    margin: 0px 10px 50px 10px !important;
+  }
+  @include desktop {
+    margin: 0px 0px 50px 0px !important;
+  }
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 20px !important;
+  .contact-form-title {
+    text-align: center;
+    color: var(--e-global-color-primary);
+  }
+  .submit-button {
+    background-color: var(--e-global-color-button);
+    color: var(--e-global-color-white);
+    border-radius: 8px;
+  }
+}

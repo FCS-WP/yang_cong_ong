@@ -1,0 +1,14 @@
+.our-blogs-block {
+  .post-item {
+    .post-title {
+      color: var(--e-global-color-primary);
+    }
+    .button {
+      padding: 5px 20px;
+      border-radius: 8px;
+      border: 1px solid var(--e-global-color-button);
+      background-color: var(--e-global-color-button);
+      color: var(--e-global-color-white);
+    }
+  }
+}

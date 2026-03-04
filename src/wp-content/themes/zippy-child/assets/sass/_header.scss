@@ -1,0 +1,58 @@
+#masthead {
+  // padding: 15px 10px;
+  // @include desktop {
+  //   padding: 0px 30px;
+  // }
+
+  border: none !important;
+  .flex-row {
+    gap: 20px;
+  }
+  .nav-left {
+    justify-content: center;
+    gap: 20px;
+    li {
+      a {
+        font-size: 16px;
+        color: var(--e-global-color-primary);
+        text-transform: capitalize;
+        &:hover {
+          color: #50698f;
+        }
+      }
+    }
+  }
+  .icon-search,
+  .icon-shopping-cart {
+    color: var(--e-global-color-primary);
+    font-size: 25px;
+  }
+}
+
+// Mobile Version
+@media screen and (max-width: 768px) {
+  #masthead {
+    padding: 15px;
+    min-height: 100px;
+    .header-inner {
+      padding: 0px;
+    }
+    .nav-left{
+      display: flex;
+      justify-content: flex-start;
+    }
+    .flex-row{
+      gap: 0px;
+    }
+  }
+  .mfp-content{
+    #main-menu{
+      .searchform{
+        .ux-search-submit{
+          background: var(--e-global-color-primary);
+        }
+      }
+    }
+  }
+
+}
